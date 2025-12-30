@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>owolade ayowale — Portfolio</title>
+		<link rel="stylesheet" href="p.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container">
+				<div class="header-row">
+						<img src="image/WhatsApp%20Image%202025-12-29%20at%208.17.42%20AM.jpeg" alt="Avatar" class="avatar" />
+					<div class="header-meta">
+						<h1 class="name">owolade ayowale</h1>
+						<p class="tagline">Frontend Developer & Designer</p>
+					</div>
+				</div>
+				<nav class="nav">
+					<a href="#about">About</a>
+					<a href="#languages">Languages</a>
+					<a href="#contact">Contact</a>
+				</nav>
+			</div>
+		</header>
+
+		<main class="container">
+			<section id="about" class="about card">
+				<h2>About</h2>
+				<p>
+					I'm owolade ayowale — I build accessible, performant user
+					interfaces and design delightful interactions. I enjoy turning
+					complex problems into simple, beautiful experiences.
+				</p>
+			</section>
+
+			<section id="languages" class="languages card">
+				<h2>Languages</h2>
+				<p class="muted">Technologies and languages I work with:</p>
+				<ul class="lang-list">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Java</li>
+					<li>C#</li>
+				</ul>
+			</section>
+
+			<section id="contact" class="contact card">
+				<h2>Contact</h2>
+				<form id="contactForm">
+					<label>
+						Name
+						<input name="name" required />
+					</label>
+					<label>
+						Email
+						<input type="email" name="email" required />
+					</label>
+					<label>
+						Message
+						<textarea name="message" rows="4" required></textarea>
+					</label>
+					<button type="submit">Send</button>
+				</form>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<p>© <span id="year"></span> owolade ayowale</p>
+		</footer>
+
+		<script src="p.js"></script>
+	</body>
+</html>
